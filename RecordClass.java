@@ -49,7 +49,6 @@ public class RecordClass {
     public void setTeluguGrade(int teluguGrade) {
         TeluguGrade = teluguGrade;
     }
-
     @Override
     public String toString() {
         return "RecordClass{" + "MathGrade=" + MathGrade + ", ScienceGrade=" + ScienceGrade + ", SocialGrade=" + SocialGrade + ", EnglishGrade=" + EnglishGrade + ", TeluguGrade=" + TeluguGrade + '}';
